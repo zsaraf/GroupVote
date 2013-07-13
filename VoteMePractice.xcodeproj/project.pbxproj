@@ -23,6 +23,12 @@
 		9241599017631AE7007DF36D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9241596B17631AE6007DF36D /* Foundation.framework */; };
 		9241599817631AE7007DF36D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9241599617631AE7007DF36D /* InfoPlist.strings */; };
 		9241599B17631AE7007DF36D /* VoteMePracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9241599A17631AE7007DF36D /* VoteMePracticeTests.m */; };
+		924159A617631B33007DF36D /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924159A517631B33007DF36D /* MainTableViewController.m */; };
+		924159A917631C2F007DF36D /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 924159A817631C2F007DF36D /* MainTableViewCell.m */; };
+		9291DDD11776B88B000DFE3B /* MainTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9291DDD01776B88B000DFE3B /* MainTableViewHeaderView.m */; };
+		9291DDD31776BEEF000DFE3B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9291DDD21776BEEF000DFE3B /* QuartzCore.framework */; };
+		92DF338A1775677800FBB848 /* ResponseUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DF33891775677800FBB848 /* ResponseUIView.m */; };
+		92DF397517768B6B00FBB848 /* ZachImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92DF397417768B6B00FBB848 /* ZachImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,16 @@
 		9241599717631AE7007DF36D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9241599917631AE7007DF36D /* VoteMePracticeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoteMePracticeTests.h; sourceTree = "<group>"; };
 		9241599A17631AE7007DF36D /* VoteMePracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoteMePracticeTests.m; sourceTree = "<group>"; };
+		924159A417631B33007DF36D /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		924159A517631B33007DF36D /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		924159A717631C2F007DF36D /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		924159A817631C2F007DF36D /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		9291DDCF1776B88B000DFE3B /* MainTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewHeaderView.h; sourceTree = "<group>"; };
+		9291DDD01776B88B000DFE3B /* MainTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewHeaderView.m; sourceTree = "<group>"; };
+		9291DDD21776BEEF000DFE3B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		92DF33881775677800FBB848 /* ResponseUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseUIView.h; sourceTree = "<group>"; };
+		92DF33891775677800FBB848 /* ResponseUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseUIView.m; sourceTree = "<group>"; };
+		92DF397417768B6B00FBB848 /* ZachImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ZachImage.jpg; path = ../../Downloads/ZachImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9291DDD31776BEEF000DFE3B /* QuartzCore.framework in Frameworks */,
 				9241596A17631AE6007DF36D /* UIKit.framework in Frameworks */,
 				9241596C17631AE6007DF36D /* Foundation.framework in Frameworks */,
 				9241596E17631AE6007DF36D /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +104,10 @@
 		9241595D17631AE6007DF36D = {
 			isa = PBXGroup;
 			children = (
+				9291DDD21776BEEF000DFE3B /* QuartzCore.framework */,
+				92DF397417768B6B00FBB848 /* ZachImage.jpg */,
+				92DF33881775677800FBB848 /* ResponseUIView.h */,
+				92DF33891775677800FBB848 /* ResponseUIView.m */,
 				9241596F17631AE6007DF36D /* VoteMePractice */,
 				9241599317631AE7007DF36D /* VoteMePracticeTests */,
 				9241596817631AE6007DF36D /* Frameworks */,
@@ -121,6 +142,12 @@
 				9241597917631AE6007DF36D /* AppDelegate.m */,
 				9241598117631AE6007DF36D /* MainStoryboard.storyboard */,
 				9241598417631AE6007DF36D /* ViewController.h */,
+				924159A417631B33007DF36D /* MainTableViewController.h */,
+				924159A517631B33007DF36D /* MainTableViewController.m */,
+				9291DDCF1776B88B000DFE3B /* MainTableViewHeaderView.h */,
+				9291DDD01776B88B000DFE3B /* MainTableViewHeaderView.m */,
+				924159A717631C2F007DF36D /* MainTableViewCell.h */,
+				924159A817631C2F007DF36D /* MainTableViewCell.m */,
 				9241598517631AE6007DF36D /* ViewController.m */,
 				9241597017631AE6007DF36D /* Supporting Files */,
 			);
@@ -236,6 +263,7 @@
 				9241597E17631AE6007DF36D /* Default@2x.png in Resources */,
 				9241598017631AE6007DF36D /* Default-568h@2x.png in Resources */,
 				9241598317631AE6007DF36D /* MainStoryboard.storyboard in Resources */,
+				92DF397517768B6B00FBB848 /* ZachImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +301,10 @@
 				9241597617631AE6007DF36D /* main.m in Sources */,
 				9241597A17631AE6007DF36D /* AppDelegate.m in Sources */,
 				9241598617631AE6007DF36D /* ViewController.m in Sources */,
+				924159A617631B33007DF36D /* MainTableViewController.m in Sources */,
+				924159A917631C2F007DF36D /* MainTableViewCell.m in Sources */,
+				92DF338A1775677800FBB848 /* ResponseUIView.m in Sources */,
+				9291DDD11776B88B000DFE3B /* MainTableViewHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +413,10 @@
 		9241599F17631AE7007DF36D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/Adobe Photoshop  CS6 [Mac] xCYBERPIRATENx\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoteMePractice/VoteMePractice-Prefix.pch";
 				INFOPLIST_FILE = "VoteMePractice/VoteMePractice-Info.plist";
@@ -392,6 +428,10 @@
 		924159A017631AE7007DF36D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/Adobe Photoshop  CS6 [Mac] xCYBERPIRATENx\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoteMePractice/VoteMePractice-Prefix.pch";
 				INFOPLIST_FILE = "VoteMePractice/VoteMePractice-Info.plist";
@@ -453,6 +493,7 @@
 				924159A017631AE7007DF36D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		924159A117631AE7007DF36D /* Build configuration list for PBXNativeTarget "VoteMePracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +502,7 @@
 				924159A317631AE7007DF36D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
