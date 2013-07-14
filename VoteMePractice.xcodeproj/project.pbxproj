@@ -28,7 +28,6 @@
 		9291DDD11776B88B000DFE3B /* MainTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9291DDD01776B88B000DFE3B /* MainTableViewHeaderView.m */; };
 		9291DDD31776BEEF000DFE3B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9291DDD21776BEEF000DFE3B /* QuartzCore.framework */; };
 		92DF338A1775677800FBB848 /* ResponseUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DF33891775677800FBB848 /* ResponseUIView.m */; };
-		92DF397517768B6B00FBB848 /* ZachImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92DF397417768B6B00FBB848 /* ZachImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +72,6 @@
 		9291DDD21776BEEF000DFE3B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		92DF33881775677800FBB848 /* ResponseUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseUIView.h; sourceTree = "<group>"; };
 		92DF33891775677800FBB848 /* ResponseUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseUIView.m; sourceTree = "<group>"; };
-		92DF397417768B6B00FBB848 /* ZachImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ZachImage.jpg; path = ../../Downloads/ZachImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +102,6 @@
 		9241595D17631AE6007DF36D = {
 			isa = PBXGroup;
 			children = (
-				9291DDD21776BEEF000DFE3B /* QuartzCore.framework */,
-				92DF397417768B6B00FBB848 /* ZachImage.jpg */,
 				92DF33881775677800FBB848 /* ResponseUIView.h */,
 				92DF33891775677800FBB848 /* ResponseUIView.m */,
 				9241596F17631AE6007DF36D /* VoteMePractice */,
@@ -127,6 +123,7 @@
 		9241596817631AE6007DF36D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9291DDD21776BEEF000DFE3B /* QuartzCore.framework */,
 				9241596917631AE6007DF36D /* UIKit.framework */,
 				9241596B17631AE6007DF36D /* Foundation.framework */,
 				9241596D17631AE6007DF36D /* CoreGraphics.framework */,
@@ -263,7 +260,6 @@
 				9241597E17631AE6007DF36D /* Default@2x.png in Resources */,
 				9241598017631AE6007DF36D /* Default-568h@2x.png in Resources */,
 				9241598317631AE6007DF36D /* MainStoryboard.storyboard in Resources */,
-				92DF397517768B6B00FBB848 /* ZachImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +411,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../Downloads/Adobe Photoshop  CS6 [Mac] xCYBERPIRATENx\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoteMePractice/VoteMePractice-Prefix.pch";
@@ -430,7 +426,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../Downloads/Adobe Photoshop  CS6 [Mac] xCYBERPIRATENx\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoteMePractice/VoteMePractice-Prefix.pch";

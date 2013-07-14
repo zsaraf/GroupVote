@@ -67,14 +67,12 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
     return self.numCells;
 }
@@ -117,7 +115,7 @@
     } else {
         [self.cellHeights replaceObjectAtIndex:[[cell rowNum] intValue] withObject:[NSNumber numberWithInt:60]];
         [[self tableView] beginUpdates];
-        [[self tableView] endUpdates];s
+        [[self tableView] endUpdates];
         [cell revertCellSize];
     }
 }

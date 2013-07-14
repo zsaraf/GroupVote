@@ -45,6 +45,7 @@
         UIColor *whiteColor = [UIColor colorWithRed:1. green:253/255. blue:253/255. alpha:.8];
         
         self.scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
+        [self.scrollView setShowsHorizontalScrollIndicator:false];
         self.redView = [[ResponseUIView alloc] initWithFrame:self.bounds];
         [self.redView setBackgroundColor:[UIColor colorWithRed:.9 green:.3 blue:.2 alpha:1.]];
         self.redView.label = [self addLabelInView:self.redView withText:@"Red Label" andAdd:YES inColor:whiteColor];
