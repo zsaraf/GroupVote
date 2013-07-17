@@ -35,6 +35,8 @@
 		92591CD417965EE2007BE51A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92591CD317965EE2007BE51A /* QuartzCore.framework */; };
 		92591CD617965EF8007BE51A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92591CD517965EF8007BE51A /* StoreKit.framework */; };
 		92591CD817965F03007BE51A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92591CD717965F03007BE51A /* SystemConfiguration.framework */; };
+		92591CDB1796614C007BE51A /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92591CDA1796614C007BE51A /* UserDetailsViewController.m */; };
+		92591CDF1796699C007BE51A /* TableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92591CDE1796699C007BE51A /* TableHeaderView.xib */; };
 		B5E6054A17950EAC00DCFB7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E6054917950EAC00DCFB7A /* UIKit.framework */; };
 		B5E6054C17950EAC00DCFB7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E6054B17950EAC00DCFB7A /* Foundation.framework */; };
 		B5E6054E17950EAC00DCFB7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E6054D17950EAC00DCFB7A /* CoreGraphics.framework */; };
@@ -87,6 +89,9 @@
 		92591CD317965EE2007BE51A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		92591CD517965EF8007BE51A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		92591CD717965F03007BE51A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		92591CD91796614C007BE51A /* UserDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsViewController.h; sourceTree = "<group>"; };
+		92591CDA1796614C007BE51A /* UserDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsViewController.m; sourceTree = "<group>"; };
+		92591CDE1796699C007BE51A /* TableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableHeaderView.xib; sourceTree = "<group>"; };
 		B5E6054617950EAC00DCFB7A /* GroupVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E6054917950EAC00DCFB7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5E6054B17950EAC00DCFB7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -200,6 +205,7 @@
 		B5E6054F17950EAC00DCFB7A /* GroupVote */ = {
 			isa = PBXGroup;
 			children = (
+				92591CDE1796699C007BE51A /* TableHeaderView.xib */,
 				9233C33C1795278C00AC5DE4 /* big_noodle_titling.ttf */,
 				9233C33A1795276700AC5DE4 /* Neou-Thin.ttf */,
 				9233C3361795273700AC5DE4 /* Essence Sans Light.ttf */,
@@ -212,6 +218,8 @@
 				B5E6056417950EAC00DCFB7A /* MainStoryboard_iPad.storyboard */,
 				B5E6056717950EAC00DCFB7A /* ViewController.h */,
 				B5E6056817950EAC00DCFB7A /* ViewController.m */,
+				92591CD91796614C007BE51A /* UserDetailsViewController.h */,
+				92591CDA1796614C007BE51A /* UserDetailsViewController.m */,
 				B5E6055017950EAC00DCFB7A /* Supporting Files */,
 			);
 			path = GroupVote;
@@ -334,6 +342,7 @@
 				B5E6056317950EAC00DCFB7A /* MainStoryboard_iPhone.storyboard in Resources */,
 				B5E6056617950EAC00DCFB7A /* MainStoryboard_iPad.storyboard in Resources */,
 				92591CBC17965C1A007BE51A /* FacebookSDKResources.bundle in Resources */,
+				92591CDF1796699C007BE51A /* TableHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +386,7 @@
 				B5E6055617950EAC00DCFB7A /* main.m in Sources */,
 				B5E6055A17950EAC00DCFB7A /* AppDelegate.m in Sources */,
 				B5E6056917950EAC00DCFB7A /* ViewController.m in Sources */,
+				92591CDB1796614C007BE51A /* UserDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

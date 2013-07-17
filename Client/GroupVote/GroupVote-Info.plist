@@ -54,7 +54,7 @@
 		<string>big_noodle_titling.ttf</string>
 		<string>Existence-Light.otf</string>
 	</array>
-	<key>FacebookAppId</key>
+	<key>FacebookAppID</key>
 	<string>398792063565046</string>
 	<key>FacebookDisplayName</key>
 	<string>Swiftly</string>

@@ -11,6 +11,9 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation;
+
 @property (strong, nonatomic) UIWindow *window;
 
 @end
