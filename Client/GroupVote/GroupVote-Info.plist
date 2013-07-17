@@ -45,5 +45,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BebasNeue.otf</string>
+		<string>Champagne &amp; Limousines.ttf</string>
+		<string>Essence Sans Light.ttf</string>
+		<string>Neou-Thin.ttf</string>
+		<string>big_noodle_titling.ttf</string>
+		<string>Existence-Light.otf</string>
+	</array>
 </dict>
 </plist>
