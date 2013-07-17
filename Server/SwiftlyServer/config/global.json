@@ -1,0 +1,11 @@
+{
+    "applications": {
+        "Swiftly": {
+            "applicationId": "NSUCiOCLNN8c7MJ24TViMk4J6wLE8Ueshns8CL0a", 
+            "masterKey": "0FA3yyQyPokpJKAhaT6yCIEGKvw5lRkiqT5R4pCo"
+        }, 
+        "_default": {
+            "link": "Swiftly"
+        }
+    }
+}
