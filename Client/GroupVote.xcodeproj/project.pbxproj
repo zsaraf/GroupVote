@@ -19,6 +19,7 @@
 		9233C340179527A000AC5DE4 /* Essence Sans Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9233C3361795273700AC5DE4 /* Essence Sans Light.ttf */; };
 		9233C341179527A000AC5DE4 /* Champagne & Limousines.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9233C3381795275500AC5DE4 /* Champagne & Limousines.ttf */; };
 		9233C342179527A000AC5DE4 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9233C3341795270400AC5DE4 /* BebasNeue.otf */; };
+		92B037D01796569B00C81F94 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B037CF1796569B00C81F94 /* FacebookSDK.framework */; };
 		B5E6054A17950EAC00DCFB7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E6054917950EAC00DCFB7A /* UIKit.framework */; };
 		B5E6054C17950EAC00DCFB7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E6054B17950EAC00DCFB7A /* Foundation.framework */; };
 		B5E6054E17950EAC00DCFB7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E6054D17950EAC00DCFB7A /* CoreGraphics.framework */; };
@@ -55,6 +56,7 @@
 		9233C3381795275500AC5DE4 /* Champagne & Limousines.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines.ttf"; sourceTree = "<group>"; };
 		9233C33A1795276700AC5DE4 /* Neou-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neou-Thin.ttf"; sourceTree = "<group>"; };
 		9233C33C1795278C00AC5DE4 /* big_noodle_titling.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = big_noodle_titling.ttf; sourceTree = "<group>"; };
+		92B037CF1796569B00C81F94 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		B5E6054617950EAC00DCFB7A /* GroupVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E6054917950EAC00DCFB7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5E6054B17950EAC00DCFB7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +90,7 @@
 				B5E6054A17950EAC00DCFB7A /* UIKit.framework in Frameworks */,
 				B5E6054C17950EAC00DCFB7A /* Foundation.framework in Frameworks */,
 				B5E6054E17950EAC00DCFB7A /* CoreGraphics.framework in Frameworks */,
+				92B037D01796569B00C81F94 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +129,7 @@
 		B5E6054817950EAC00DCFB7A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				92B037CF1796569B00C81F94 /* FacebookSDK.framework */,
 				B5E6054917950EAC00DCFB7A /* UIKit.framework */,
 				B5E6054B17950EAC00DCFB7A /* Foundation.framework */,
 				B5E6054D17950EAC00DCFB7A /* CoreGraphics.framework */,
@@ -431,6 +435,10 @@
 		B5E6058217950EAD00DCFB7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GroupVote/GroupVote-Prefix.pch";
 				INFOPLIST_FILE = "GroupVote/GroupVote-Info.plist";
@@ -442,6 +450,10 @@
 		B5E6058317950EAD00DCFB7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GroupVote/GroupVote-Prefix.pch";
 				INFOPLIST_FILE = "GroupVote/GroupVote-Info.plist";
