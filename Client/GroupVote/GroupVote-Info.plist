@@ -54,5 +54,18 @@
 		<string>big_noodle_titling.ttf</string>
 		<string>Existence-Light.otf</string>
 	</array>
+	<key>FacebookAppId</key>
+	<string>398792063565046</string>
+	<key>FacebookDisplayName</key>
+	<string>Swiftly</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb398792063565046</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
