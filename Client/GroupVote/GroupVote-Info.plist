@@ -24,17 +24,8 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>UIAppFonts</key>
-	<array>
-		<string>BebasNeue.otf</string>
-		<string>Champagne &amp; Limousines.ttf</string>
-		<string>Essence Sans Light.ttf</string>
-		<string>Neou-Thin.ttf</string>
-		<string>big_noodle_titling.ttf</string>
-		<string>Existence-Light.otf</string>
-	</array>
 	<key>UIMainStoryboardFile</key>
-	<string>MainStoryboard</string>
+	<string>MainStoryboard_iPhone</string>
 	<key>UIMainStoryboardFile~ipad</key>
 	<string>MainStoryboard_iPad</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -44,6 +35,8 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -51,6 +44,15 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BebasNeue.otf</string>
+		<string>Champagne &amp; Limousines.ttf</string>
+		<string>Essence Sans Light.ttf</string>
+		<string>Neou-Thin.ttf</string>
+		<string>big_noodle_titling.ttf</string>
+		<string>Existence-Light.otf</string>
 	</array>
 </dict>
 </plist>
