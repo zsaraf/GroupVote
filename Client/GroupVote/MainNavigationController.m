@@ -22,7 +22,7 @@
   // Get the storyboard
   UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone" bundle:nil];
 
-  if (![[PFUser user] isAuthenticated]) {
+  if (![[PFUser currentUser] isAuthenticated]) {
     LoginViewController *lvc = [mainStoryboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
     self.viewControllers = [NSArray arrayWithObject:lvc];
   } else {
