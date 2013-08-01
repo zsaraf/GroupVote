@@ -18,7 +18,7 @@
   
   [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
-    [PFFacebookUtils initializeFacebook];
+  [PFFacebookUtils initializeFacebook];
   
     // Override point for customization after application launch.
     return YES;

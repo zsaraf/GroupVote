@@ -45,19 +45,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UIAppFonts</key>
-	<array>
-		<string>BebasNeue.otf</string>
-		<string>Champagne &amp; Limousines.ttf</string>
-		<string>Essence Sans Light.ttf</string>
-		<string>Neou-Thin.ttf</string>
-		<string>big_noodle_titling.ttf</string>
-		<string>Existence-Light.otf</string>
-	</array>
 	<key>FacebookAppID</key>
 	<string>398792063565046</string>
 	<key>FacebookDisplayName</key>
 	<string>Swiftly</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BebasNeue.otf</string>
+	</array>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>

@@ -1,23 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Y0v-mX-uk7">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
-        <scene sceneID="5">
+        <!--Main Navigation Controller-->
+        <scene sceneID="C9y-Zl-eFF">
             <objects>
-                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                <navigationController storyboardIdentifier="MainNavigationController" definesPresentationContext="YES" navigationBarHidden="YES" id="Y0v-mX-uk7" customClass="MainNavigationController" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fw5-ya-ejl">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1jm-q3-rOq" kind="relationship" relationship="rootViewController" id="flF-op-u8G"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z7q-or-aFP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-451" y="-391"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="QfJ-kc-M8I">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1jm-q3-rOq" customClass="HomeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c4r-nA-Zoa">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ZF7-cq-ABs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zwv-lb-3A1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="80" y="-391"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="2" customClass="LoginViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hq2-Up-E1U">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bI-7B-IFR">
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="facebookButton.png">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="loginButtonTouchHandler:" destination="2" eventType="touchUpInside" id="3xV-g8-pa7"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="THIS APP REQUIRES YOU TO LOGIN VIA FACEBOOK" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="281" translatesAutoresizingMaskIntoConstraints="NO" id="oqF-yD-Cvd" customClass="SwiftlyLabel">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="281" id="QQh-bN-WQi"/>
+                                            <constraint firstAttribute="height" constant="77" id="dRK-Oo-3fx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="29"/>
+                                        <color key="textColor" red="0.46666669845581055" green="0.59215688705444336" blue="0.80392163991928101" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="2bI-7B-IFR" firstAttribute="top" secondItem="oqF-yD-Cvd" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="2ns-q4-VM3"/>
+                                    <constraint firstItem="2bI-7B-IFR" firstAttribute="centerY" secondItem="Hq2-Up-E1U" secondAttribute="centerY" type="default" id="3Am-W6-5jQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="2bI-7B-IFR" secondAttribute="bottom" constant="248" id="JLa-SK-kfQ"/>
+                                    <constraint firstItem="oqF-yD-Cvd" firstAttribute="leading" secondItem="Hq2-Up-E1U" secondAttribute="leading" constant="19" id="TSy-bc-Fse"/>
+                                    <constraint firstItem="2bI-7B-IFR" firstAttribute="centerX" secondItem="Hq2-Up-E1U" secondAttribute="centerX" type="default" id="doe-gE-dby"/>
+                                    <constraint firstAttribute="trailing" secondItem="oqF-yD-Cvd" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="xx9-zE-mTY"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hq2-Up-E1U" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="8UA-li-fjW"/>
+                            <constraint firstItem="Hq2-Up-E1U" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="Ch1-am-ZyX"/>
+                            <constraint firstItem="Hq2-Up-E1U" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="FG4-se-HTp"/>
+                            <constraint firstItem="Hq2-Up-E1U" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="Xzu-gg-tcC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Vy-Uf-EXp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-451" y="-1098"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="facebookButton.png" width="133" height="52"/>
+    </resources>
+    <classes>
+        <class className="HomeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HomeViewController.h"/>
+        </class>
+        <class className="LoginViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="loginButtonTouchHandler:"/>
+            </relationships>
+        </class>
+        <class className="MainNavigationController" superclassName="UINavigationController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainNavigationController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SwiftlyLabel" superclassName="UILabel">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SwiftlyLabel.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

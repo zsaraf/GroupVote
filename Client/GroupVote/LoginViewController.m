@@ -6,16 +6,16 @@
 //  Copyright (c) 2013 Alex Grover. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LoginViewController.h"
 #import "UserDetailsViewController.h"
 
-@interface ViewController ()
+@interface LoginViewController ()
 
 @property (nonatomic, strong) UIActivityIndicatorView *activityIndicator;
 
 @end
 
-@implementation ViewController
+@implementation LoginViewController
 
 @synthesize activityIndicator = _activityIndicator;
 
@@ -28,15 +28,15 @@
     //[testObject setObject:@"bar" forKey:@"foo"];
     //[testObject save];
     
-    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 150, 20)];
-    [[button titleLabel] setTextAlignment:NSTextAlignmentCenter];
-    [button setBackgroundColor:[UIColor blueColor]];
-    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [button setCenter:self.view.center];
-    [button addTarget:self action:@selector(loginButtonTouchHandler:) forControlEvents:UIControlEventTouchUpInside];
-    [button setTitle:@"Login" forState:UIControlStateNormal];
-    [self.view addSubview:button];
-    [self.view setUserInteractionEnabled:YES];
+//    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 150, 20)];
+//    [[button titleLabel] setTextAlignment:NSTextAlignmentCenter];
+//    [button setBackgroundColor:[UIColor blueColor]];
+//    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+//    [button setCenter:self.view.center];
+//    [button addTarget:self action:@selector(loginButtonTouchHandler:) forControlEvents:UIControlEventTouchUpInside];
+//    [button setTitle:@"Login" forState:UIControlStateNormal];
+//    [self.view addSubview:button];
+//    [self.view setUserInteractionEnabled:YES];
 }
 
 - (IBAction)loginButtonTouchHandler:(id)sender  {

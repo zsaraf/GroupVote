@@ -37,6 +37,11 @@
 		92591CD817965F03007BE51A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92591CD717965F03007BE51A /* SystemConfiguration.framework */; };
 		92591CDB1796614C007BE51A /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92591CDA1796614C007BE51A /* UserDetailsViewController.m */; };
 		92591CDF1796699C007BE51A /* TableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92591CDE1796699C007BE51A /* TableHeaderView.xib */; };
+		AF37A5EE17AA2098005AEF8B /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF37A5ED17AA2098005AEF8B /* MainNavigationController.m */; };
+		AF37A5F117AA219B005AEF8B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF37A5F017AA219B005AEF8B /* HomeViewController.m */; };
+		AF37A5F417AA234F005AEF8B /* SwiftlyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF37A5F317AA234F005AEF8B /* SwiftlyLabel.m */; };
+		AF37F76A17AA25C8003DD19B /* facebookButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AF37F76817AA25C8003DD19B /* facebookButton.png */; };
+		AF37F76B17AA25C8003DD19B /* facebookButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF37F76917AA25C8003DD19B /* facebookButton@2x.png */; };
 		B5E6054A17950EAC00DCFB7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E6054917950EAC00DCFB7A /* UIKit.framework */; };
 		B5E6054C17950EAC00DCFB7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E6054B17950EAC00DCFB7A /* Foundation.framework */; };
 		B5E6054E17950EAC00DCFB7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E6054D17950EAC00DCFB7A /* CoreGraphics.framework */; };
@@ -47,8 +52,7 @@
 		B5E6055E17950EAC00DCFB7A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E6055D17950EAC00DCFB7A /* Default@2x.png */; };
 		B5E6056017950EAC00DCFB7A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E6055F17950EAC00DCFB7A /* Default-568h@2x.png */; };
 		B5E6056317950EAC00DCFB7A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E6056117950EAC00DCFB7A /* MainStoryboard_iPhone.storyboard */; };
-		B5E6056617950EAC00DCFB7A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E6056417950EAC00DCFB7A /* MainStoryboard_iPad.storyboard */; };
-		B5E6056917950EAC00DCFB7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E6056817950EAC00DCFB7A /* ViewController.m */; };
+		B5E6056917950EAC00DCFB7A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E6056817950EAC00DCFB7A /* LoginViewController.m */; };
 		B5E6057117950EAD00DCFB7A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E6057017950EAC00DCFB7A /* SenTestingKit.framework */; };
 		B5E6057217950EAD00DCFB7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E6054917950EAC00DCFB7A /* UIKit.framework */; };
 		B5E6057317950EAD00DCFB7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E6054B17950EAC00DCFB7A /* Foundation.framework */; };
@@ -92,6 +96,14 @@
 		92591CD91796614C007BE51A /* UserDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsViewController.h; sourceTree = "<group>"; };
 		92591CDA1796614C007BE51A /* UserDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsViewController.m; sourceTree = "<group>"; };
 		92591CDE1796699C007BE51A /* TableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableHeaderView.xib; sourceTree = "<group>"; };
+		AF37A5EC17AA2098005AEF8B /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		AF37A5ED17AA2098005AEF8B /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		AF37A5EF17AA219B005AEF8B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		AF37A5F017AA219B005AEF8B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		AF37A5F217AA234F005AEF8B /* SwiftlyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftlyLabel.h; sourceTree = "<group>"; };
+		AF37A5F317AA234F005AEF8B /* SwiftlyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftlyLabel.m; sourceTree = "<group>"; };
+		AF37F76817AA25C8003DD19B /* facebookButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookButton.png; sourceTree = "<group>"; };
+		AF37F76917AA25C8003DD19B /* facebookButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebookButton@2x.png"; sourceTree = "<group>"; };
 		B5E6054617950EAC00DCFB7A /* GroupVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E6054917950EAC00DCFB7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5E6054B17950EAC00DCFB7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,9 +118,8 @@
 		B5E6055D17950EAC00DCFB7A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B5E6055F17950EAC00DCFB7A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B5E6056217950EAC00DCFB7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		B5E6056517950EAC00DCFB7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		B5E6056717950EAC00DCFB7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B5E6056817950EAC00DCFB7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5E6056717950EAC00DCFB7A /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B5E6056817950EAC00DCFB7A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		B5E6056F17950EAC00DCFB7A /* GroupVoteTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupVoteTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E6057017950EAC00DCFB7A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		B5E6057817950EAD00DCFB7A /* GroupVoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GroupVoteTests-Info.plist"; sourceTree = "<group>"; };
@@ -215,11 +226,18 @@
 				B5E6055817950EAC00DCFB7A /* AppDelegate.h */,
 				B5E6055917950EAC00DCFB7A /* AppDelegate.m */,
 				B5E6056117950EAC00DCFB7A /* MainStoryboard_iPhone.storyboard */,
-				B5E6056417950EAC00DCFB7A /* MainStoryboard_iPad.storyboard */,
-				B5E6056717950EAC00DCFB7A /* ViewController.h */,
-				B5E6056817950EAC00DCFB7A /* ViewController.m */,
+				B5E6056717950EAC00DCFB7A /* LoginViewController.h */,
+				B5E6056817950EAC00DCFB7A /* LoginViewController.m */,
 				92591CD91796614C007BE51A /* UserDetailsViewController.h */,
 				92591CDA1796614C007BE51A /* UserDetailsViewController.m */,
+				AF37A5EC17AA2098005AEF8B /* MainNavigationController.h */,
+				AF37A5ED17AA2098005AEF8B /* MainNavigationController.m */,
+				AF37A5EF17AA219B005AEF8B /* HomeViewController.h */,
+				AF37A5F017AA219B005AEF8B /* HomeViewController.m */,
+				AF37A5F217AA234F005AEF8B /* SwiftlyLabel.h */,
+				AF37A5F317AA234F005AEF8B /* SwiftlyLabel.m */,
+				AF37F76817AA25C8003DD19B /* facebookButton.png */,
+				AF37F76917AA25C8003DD19B /* facebookButton@2x.png */,
 				B5E6055017950EAC00DCFB7A /* Supporting Files */,
 			);
 			path = GroupVote;
@@ -340,9 +358,10 @@
 				B5E6055E17950EAC00DCFB7A /* Default@2x.png in Resources */,
 				B5E6056017950EAC00DCFB7A /* Default-568h@2x.png in Resources */,
 				B5E6056317950EAC00DCFB7A /* MainStoryboard_iPhone.storyboard in Resources */,
-				B5E6056617950EAC00DCFB7A /* MainStoryboard_iPad.storyboard in Resources */,
 				92591CBC17965C1A007BE51A /* FacebookSDKResources.bundle in Resources */,
 				92591CDF1796699C007BE51A /* TableHeaderView.xib in Resources */,
+				AF37F76A17AA25C8003DD19B /* facebookButton.png in Resources */,
+				AF37F76B17AA25C8003DD19B /* facebookButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,8 +404,11 @@
 			files = (
 				B5E6055617950EAC00DCFB7A /* main.m in Sources */,
 				B5E6055A17950EAC00DCFB7A /* AppDelegate.m in Sources */,
-				B5E6056917950EAC00DCFB7A /* ViewController.m in Sources */,
+				B5E6056917950EAC00DCFB7A /* LoginViewController.m in Sources */,
 				92591CDB1796614C007BE51A /* UserDetailsViewController.m in Sources */,
+				AF37A5EE17AA2098005AEF8B /* MainNavigationController.m in Sources */,
+				AF37A5F117AA219B005AEF8B /* HomeViewController.m in Sources */,
+				AF37A5F417AA234F005AEF8B /* SwiftlyLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,14 +445,6 @@
 				B5E6056217950EAC00DCFB7A /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		B5E6056417950EAC00DCFB7A /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5E6056517950EAC00DCFB7A /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		B5E6057917950EAD00DCFB7A /* InfoPlist.strings */ = {
@@ -513,6 +527,7 @@
 				GCC_PREFIX_HEADER = "GroupVote/GroupVote-Prefix.pch";
 				INFOPLIST_FILE = "GroupVote/GroupVote-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -528,6 +543,7 @@
 				GCC_PREFIX_HEADER = "GroupVote/GroupVote-Prefix.pch";
 				INFOPLIST_FILE = "GroupVote/GroupVote-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
