@@ -7,6 +7,8 @@
 //
 
 #import "MainNavigationController.h"
+#import "GroupVoteSidePanelController.h"
+#import "GroupVoteUtil.h"
 
 @interface MainNavigationController ()
 
@@ -24,6 +26,8 @@
 
   if (![[PFUser currentUser] isAuthenticated] && [PFFacebookUtils isLinkedWithUser:[PFUser currentUser]]) {
     LoginViewController *lvc = [mainStoryboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
+      [[GroupVoteUtil groupVoteSharedAppDelegate].sidePanelController setAllowLeftSwipe:NO];
+      [[GroupVoteUtil groupVoteSharedAppDelegate].sidePanelController setAllowRightSwipe:NO];
     self.viewControllers = [NSArray arrayWithObject:lvc];
   } else {
     HomeViewController *hvc = [mainStoryboard instantiateViewControllerWithIdentifier:@"HomeViewController"];

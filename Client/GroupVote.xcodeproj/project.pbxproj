@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9231C6A617BC8F4000ED074D /* GroupVoteSidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9231C6A517BC8F4000ED074D /* GroupVoteSidePanelController.m */; };
+		9231C6A717BC901700ED074D /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7C6C517BC8EAB00CF1094 /* JASidePanelController.m */; };
+		9231C6AA17BC935F00ED074D /* GroupVoteUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9231C6A917BC935F00ED074D /* GroupVoteUtil.m */; };
 		9233C332179520D300AC5DE4 /* Existence-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9233C331179520D300AC5DE4 /* Existence-Light.otf */; };
 		9233C333179520E000AC5DE4 /* Existence-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9233C331179520D300AC5DE4 /* Existence-Light.otf */; };
 		9233C3351795270400AC5DE4 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9233C3341795270400AC5DE4 /* BebasNeue.otf */; };
@@ -37,6 +40,7 @@
 		92591CD817965F03007BE51A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92591CD717965F03007BE51A /* SystemConfiguration.framework */; };
 		92591CDB1796614C007BE51A /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92591CDA1796614C007BE51A /* UserDetailsViewController.m */; };
 		92591CDF1796699C007BE51A /* TableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92591CDE1796699C007BE51A /* TableHeaderView.xib */; };
+		92D7C6C617BC8EAB00CF1094 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7C6C517BC8EAB00CF1094 /* JASidePanelController.m */; };
 		AF37A5EE17AA2098005AEF8B /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF37A5ED17AA2098005AEF8B /* MainNavigationController.m */; };
 		AF37A5F117AA219B005AEF8B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF37A5F017AA219B005AEF8B /* HomeViewController.m */; };
 		AF37A5F417AA234F005AEF8B /* SwiftlyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF37A5F317AA234F005AEF8B /* SwiftlyLabel.m */; };
@@ -71,6 +75,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9231C6A417BC8F4000ED074D /* GroupVoteSidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupVoteSidePanelController.h; sourceTree = "<group>"; };
+		9231C6A517BC8F4000ED074D /* GroupVoteSidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupVoteSidePanelController.m; sourceTree = "<group>"; };
+		9231C6A817BC935F00ED074D /* GroupVoteUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupVoteUtil.h; path = GroupVote/GroupVoteUtil.h; sourceTree = "<group>"; };
+		9231C6A917BC935F00ED074D /* GroupVoteUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupVoteUtil.m; path = GroupVote/GroupVoteUtil.m; sourceTree = "<group>"; };
 		9233C331179520D300AC5DE4 /* Existence-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Existence-Light.otf"; sourceTree = "<group>"; };
 		9233C3341795270400AC5DE4 /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
 		9233C3361795273700AC5DE4 /* Essence Sans Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Essence Sans Light.ttf"; sourceTree = "<group>"; };
@@ -96,6 +104,8 @@
 		92591CD91796614C007BE51A /* UserDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsViewController.h; sourceTree = "<group>"; };
 		92591CDA1796614C007BE51A /* UserDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsViewController.m; sourceTree = "<group>"; };
 		92591CDE1796699C007BE51A /* TableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableHeaderView.xib; sourceTree = "<group>"; };
+		92D7C6C417BC8EAB00CF1094 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
+		92D7C6C517BC8EAB00CF1094 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
 		AF37A5EC17AA2098005AEF8B /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
 		AF37A5ED17AA2098005AEF8B /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
 		AF37A5EF17AA219B005AEF8B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -170,6 +180,8 @@
 		B5E6053D17950EAC00DCFB7A = {
 			isa = PBXGroup;
 			children = (
+				9231C6A817BC935F00ED074D /* GroupVoteUtil.h */,
+				9231C6A917BC935F00ED074D /* GroupVoteUtil.m */,
 				B5E6054F17950EAC00DCFB7A /* GroupVote */,
 				B5E6057617950EAD00DCFB7A /* GroupVoteTests */,
 				B5E6054817950EAC00DCFB7A /* Frameworks */,
@@ -216,6 +228,8 @@
 		B5E6054F17950EAC00DCFB7A /* GroupVote */ = {
 			isa = PBXGroup;
 			children = (
+				92D7C6C417BC8EAB00CF1094 /* JASidePanelController.h */,
+				92D7C6C517BC8EAB00CF1094 /* JASidePanelController.m */,
 				92591CDE1796699C007BE51A /* TableHeaderView.xib */,
 				9233C33C1795278C00AC5DE4 /* big_noodle_titling.ttf */,
 				9233C33A1795276700AC5DE4 /* Neou-Thin.ttf */,
@@ -226,6 +240,8 @@
 				B5E6055817950EAC00DCFB7A /* AppDelegate.h */,
 				B5E6055917950EAC00DCFB7A /* AppDelegate.m */,
 				B5E6056117950EAC00DCFB7A /* MainStoryboard_iPhone.storyboard */,
+				9231C6A417BC8F4000ED074D /* GroupVoteSidePanelController.h */,
+				9231C6A517BC8F4000ED074D /* GroupVoteSidePanelController.m */,
 				B5E6056717950EAC00DCFB7A /* LoginViewController.h */,
 				B5E6056817950EAC00DCFB7A /* LoginViewController.m */,
 				92591CD91796614C007BE51A /* UserDetailsViewController.h */,
@@ -402,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9231C6A717BC901700ED074D /* JASidePanelController.m in Sources */,
 				B5E6055617950EAC00DCFB7A /* main.m in Sources */,
 				B5E6055A17950EAC00DCFB7A /* AppDelegate.m in Sources */,
 				B5E6056917950EAC00DCFB7A /* LoginViewController.m in Sources */,
@@ -409,6 +426,8 @@
 				AF37A5EE17AA2098005AEF8B /* MainNavigationController.m in Sources */,
 				AF37A5F117AA219B005AEF8B /* HomeViewController.m in Sources */,
 				AF37A5F417AA234F005AEF8B /* SwiftlyLabel.m in Sources */,
+				9231C6A617BC8F4000ED074D /* GroupVoteSidePanelController.m in Sources */,
+				9231C6AA17BC935F00ED074D /* GroupVoteUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E6057E17950EAD00DCFB7A /* GroupVoteTests.m in Sources */,
+				92D7C6C617BC8EAB00CF1094 /* JASidePanelController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

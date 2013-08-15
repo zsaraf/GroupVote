@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import "UserDetailsViewController.h"
+#import "GroupVoteUtil.h"
 
 @interface LoginViewController ()
 
@@ -39,12 +40,12 @@
                 NSLog(@"Uh oh. An error occurred: %@", error);
             }
         } else if (user.isNew) {
-
+            
             // Setup the PF Installation
             [self addInstallation];
             [self goToHomeView];
         } else {
-
+            
             // Setup the PF Installation
             [self addInstallation];
             [self goToHomeView];
@@ -60,8 +61,11 @@
 }
 
 - (void)goToHomeView {
+    
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone" bundle:nil];
     HomeViewController *hvc = [mainStoryboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
+    [[GroupVoteUtil groupVoteSharedAppDelegate].sidePanelController setAllowRightSwipe:YES];
+    [[GroupVoteUtil groupVoteSharedAppDelegate].sidePanelController setAllowLeftSwipe:YES];
     [self.navigationController setViewControllers:[NSArray arrayWithObject:hvc] animated:YES];
 }
 
