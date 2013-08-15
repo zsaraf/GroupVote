@@ -30,6 +30,7 @@
     
     MainNavigationController  *navController= [[MainNavigationController alloc] init];
     [self.sidePanelController setCenterPanel:navController];
+    /// HELLO, MOTHAFUKCA
     [self.window setRootViewController:self.sidePanelController];
     // Override point for customization after application launch.
     return YES;
