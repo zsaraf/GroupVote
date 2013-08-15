@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
+#import "GroupVoteSidePanelController.h"
+#import "MainNavigationController.h"
 
 @implementation AppDelegate
 
@@ -20,6 +22,19 @@
     
   [PFFacebookUtils initializeFacebook];
   
+    
+    UIViewController *leftVC = [[UIViewController alloc] init];
+    [leftVC.view setBackgroundColor:[UIColor blueColor]];
+    UIViewController *rightVC = [[UIViewController alloc] init];
+    [rightVC.view setBackgroundColor:[UIColor redColor]];
+    self.sidePanelController = [[GroupVoteSidePanelController alloc] init];
+    [self.sidePanelController setLeftPanel: leftVC];
+    [self.sidePanelController setRightPanel:rightVC];
+    
+    MainNavigationController  *navController= [[MainNavigationController alloc] init];
+    [self.sidePanelController setCenterPanel:navController];
+    [self.window setRootViewController:self.sidePanelController];
+    
     // Override point for customization after application launch.
     return YES;
 }
