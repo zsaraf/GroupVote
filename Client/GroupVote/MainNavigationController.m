@@ -22,7 +22,7 @@
   // Get the storyboard
   UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone" bundle:nil];
 
-  if (![[PFUser currentUser] isAuthenticated]) {
+  if (![[PFUser currentUser] isAuthenticated] && [PFFacebookUtils isLinkedWithUser:[PFUser currentUser]]) {
     LoginViewController *lvc = [mainStoryboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
     self.viewControllers = [NSArray arrayWithObject:lvc];
   } else {
