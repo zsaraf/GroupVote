@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Y0v-mX-uk7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Y0v-mX-uk7">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -68,13 +68,24 @@
                                         <color key="textColor" red="0.46666669845581055" green="0.59215688705444336" blue="0.80392163991928101" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Swiftly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m6s-bf-2Vr" customClass="SwiftlyLabel">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="114" id="E4w-Pm-VDx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="90"/>
+                                        <color key="textColor" red="0.38834312429729267" green="0.51164479563920695" blue="0.76415019132653061" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="2bI-7B-IFR" firstAttribute="top" secondItem="oqF-yD-Cvd" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="2ns-q4-VM3"/>
                                     <constraint firstItem="2bI-7B-IFR" firstAttribute="centerY" secondItem="Hq2-Up-E1U" secondAttribute="centerY" type="default" id="3Am-W6-5jQ"/>
+                                    <constraint firstItem="m6s-bf-2Vr" firstAttribute="centerX" secondItem="Hq2-Up-E1U" secondAttribute="centerX" type="default" id="6VK-Cq-eaB"/>
+                                    <constraint firstItem="oqF-yD-Cvd" firstAttribute="centerX" secondItem="2bI-7B-IFR" secondAttribute="centerX" type="default" id="6lf-y1-DI4"/>
                                     <constraint firstAttribute="bottom" secondItem="2bI-7B-IFR" secondAttribute="bottom" constant="248" id="JLa-SK-kfQ"/>
-                                    <constraint firstItem="oqF-yD-Cvd" firstAttribute="leading" secondItem="Hq2-Up-E1U" secondAttribute="leading" constant="19" id="TSy-bc-Fse"/>
-                                    <constraint firstItem="2bI-7B-IFR" firstAttribute="centerX" secondItem="Hq2-Up-E1U" secondAttribute="centerX" type="default" id="doe-gE-dby"/>
+                                    <constraint firstItem="m6s-bf-2Vr" firstAttribute="top" secondItem="Hq2-Up-E1U" secondAttribute="top" constant="13" id="TNK-O9-kdG"/>
+                                    <constraint firstItem="m6s-bf-2Vr" firstAttribute="trailing" secondItem="Hq2-Up-E1U" secondAttribute="trailing" type="default" id="duK-5R-Tbd"/>
+                                    <constraint firstItem="m6s-bf-2Vr" firstAttribute="leading" secondItem="Hq2-Up-E1U" secondAttribute="leading" type="default" id="obc-XA-WPv"/>
                                     <constraint firstAttribute="trailing" secondItem="oqF-yD-Cvd" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="xx9-zE-mTY"/>
                                 </constraints>
                             </scrollView>
