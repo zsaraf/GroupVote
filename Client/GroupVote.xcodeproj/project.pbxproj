@@ -22,6 +22,8 @@
 		9233C340179527A000AC5DE4 /* Essence Sans Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9233C3361795273700AC5DE4 /* Essence Sans Light.ttf */; };
 		9233C341179527A000AC5DE4 /* Champagne & Limousines.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9233C3381795275500AC5DE4 /* Champagne & Limousines.ttf */; };
 		9233C342179527A000AC5DE4 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9233C3341795270400AC5DE4 /* BebasNeue.otf */; };
+		9256F5D717BDE723007FCC3C /* LeftPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9256F5D617BDE723007FCC3C /* LeftPanelViewController.m */; };
+		9256F5DA17BDE77E007FCC3C /* GroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9256F5D917BDE77E007FCC3C /* GroupTableViewCell.m */; };
 		92591CBA17965BE4007BE51A /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92591CB917965BE4007BE51A /* FacebookSDK.framework */; };
 		92591CBC17965C1A007BE51A /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92591CBB17965C1A007BE51A /* FacebookSDKResources.bundle */; };
 		92591CBE17965C65007BE51A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92591CBD17965C65007BE51A /* AdSupport.framework */; };
@@ -88,6 +90,10 @@
 		9233C3381795275500AC5DE4 /* Champagne & Limousines.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines.ttf"; sourceTree = "<group>"; };
 		9233C33A1795276700AC5DE4 /* Neou-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neou-Thin.ttf"; sourceTree = "<group>"; };
 		9233C33C1795278C00AC5DE4 /* big_noodle_titling.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = big_noodle_titling.ttf; sourceTree = "<group>"; };
+		9256F5D517BDE723007FCC3C /* LeftPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftPanelViewController.h; sourceTree = "<group>"; };
+		9256F5D617BDE723007FCC3C /* LeftPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftPanelViewController.m; sourceTree = "<group>"; };
+		9256F5D817BDE77E007FCC3C /* GroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupTableViewCell.h; sourceTree = "<group>"; };
+		9256F5D917BDE77E007FCC3C /* GroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTableViewCell.m; sourceTree = "<group>"; };
 		92591CB917965BE4007BE51A /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		92591CBB17965C1A007BE51A /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
 		92591CBD17965C65007BE51A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -210,6 +216,8 @@
 		9245CBDF17BC97D900083705 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9256F5D517BDE723007FCC3C /* LeftPanelViewController.h */,
+				9256F5D617BDE723007FCC3C /* LeftPanelViewController.m */,
 				AF37A5EF17AA219B005AEF8B /* HomeViewController.h */,
 				AF37A5F017AA219B005AEF8B /* HomeViewController.m */,
 				9231C6A417BC8F4000ED074D /* GroupVoteSidePanelController.h */,
@@ -263,6 +271,8 @@
 		B5E6053D17950EAC00DCFB7A = {
 			isa = PBXGroup;
 			children = (
+				9256F5D817BDE77E007FCC3C /* GroupTableViewCell.h */,
+				9256F5D917BDE77E007FCC3C /* GroupTableViewCell.m */,
 				B5E6054F17950EAC00DCFB7A /* GroupVote */,
 				B5E6057617950EAD00DCFB7A /* GroupVoteTests */,
 				B5E6054817950EAC00DCFB7A /* Frameworks */,
@@ -481,10 +491,12 @@
 				9231C6A717BC901700ED074D /* JASidePanelController.m in Sources */,
 				B5E6055617950EAC00DCFB7A /* main.m in Sources */,
 				B5E6055A17950EAC00DCFB7A /* AppDelegate.m in Sources */,
+				9256F5DA17BDE77E007FCC3C /* GroupTableViewCell.m in Sources */,
 				B5E6056917950EAC00DCFB7A /* LoginViewController.m in Sources */,
 				92591CDB1796614C007BE51A /* UserDetailsViewController.m in Sources */,
 				AF37A5EE17AA2098005AEF8B /* MainNavigationController.m in Sources */,
 				AF37A5F117AA219B005AEF8B /* HomeViewController.m in Sources */,
+				9256F5D717BDE723007FCC3C /* LeftPanelViewController.m in Sources */,
 				AF37A5F417AA234F005AEF8B /* SwiftlyLabel.m in Sources */,
 				9231C6A617BC8F4000ED074D /* GroupVoteSidePanelController.m in Sources */,
 				9231C6AA17BC935F00ED074D /* GroupVoteUtil.m in Sources */,

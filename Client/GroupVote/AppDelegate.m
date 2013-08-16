@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
 #import "MainNavigationController.h"
+#import "LeftPanelViewController.h"
 
 @implementation AppDelegate
 
@@ -22,7 +23,7 @@
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone" bundle:nil];
     
-    UIViewController *leftVC = [storyboard instantiateViewControllerWithIdentifier:@"leftSidePanel"];
+    LeftPanelViewController *leftVC = [storyboard instantiateViewControllerWithIdentifier:@"leftSidePanel"];
     UIViewController *rightVC = [[UIViewController alloc] init];
     [rightVC.view setBackgroundColor:[UIColor redColor]];
     self.sidePanelController = [[GroupVoteSidePanelController alloc] init];
