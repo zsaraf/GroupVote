@@ -20,11 +20,13 @@
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     [PFFacebookUtils initializeFacebook];
     
-    UIViewController *leftVC = [[UIViewController alloc] init];
-    [leftVC.view setBackgroundColor:[UIColor blueColor]];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone" bundle:nil];
+    
+    UIViewController *leftVC = [storyboard instantiateViewControllerWithIdentifier:@"leftSidePanel"];
     UIViewController *rightVC = [[UIViewController alloc] init];
     [rightVC.view setBackgroundColor:[UIColor redColor]];
     self.sidePanelController = [[GroupVoteSidePanelController alloc] init];
+    NSLog(@"%f", self.sidePanelController.leftVisibleWidth);
     [self.sidePanelController setLeftPanel: leftVC];
     [self.sidePanelController setRightPanel:rightVC];
     
