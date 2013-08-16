@@ -30,11 +30,12 @@
     [self.sidePanelController setLeftPanel: leftVC];
     [self.sidePanelController setRightPanel:rightVC];
     
-    MainNavigationController  *navController= [[MainNavigationController alloc] init];
+    MainNavigationController  *navController= [storyboard instantiateViewControllerWithIdentifier:@"MainNavigationController"];
     [self.sidePanelController setCenterPanel:navController];
     [self.window setRootViewController:self.sidePanelController];
     
-    // Override point for customization after application launch.
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -20,19 +20,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-  
-  // Get the storyboard
-  UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone" bundle:nil];
-
-  if (![[PFUser currentUser] isAuthenticated] && [PFFacebookUtils isLinkedWithUser:[PFUser currentUser]]) {
-    LoginViewController *lvc = [mainStoryboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
-      [[GroupVoteUtil groupVoteSharedAppDelegate].sidePanelController setAllowLeftSwipe:NO];
-      [[GroupVoteUtil groupVoteSharedAppDelegate].sidePanelController setAllowRightSwipe:NO];
-    self.viewControllers = [NSArray arrayWithObject:lvc];
-  } else {
-    HomeViewController *hvc = [mainStoryboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
-    self.viewControllers = [NSArray arrayWithObject:hvc];
-  }
+    
+    // Get the storyboard
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone" bundle:nil];
+    
+    if (![[PFUser currentUser] isAuthenticated] || ![PFFacebookUtils isLinkedWithUser:[PFUser currentUser]]) {
+        LoginViewController *lvc = [mainStoryboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
+        [[GroupVoteUtil groupVoteSharedAppDelegate].sidePanelController setAllowLeftSwipe:NO];
+        [[GroupVoteUtil groupVoteSharedAppDelegate].sidePanelController setAllowRightSwipe:NO];
+        self.viewControllers = [NSArray arrayWithObject:lvc];
+    } else {
+        HomeViewController *hvc = [mainStoryboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
+        self.viewControllers = [NSArray arrayWithObject:hvc];
+    }
 }
 
 @end

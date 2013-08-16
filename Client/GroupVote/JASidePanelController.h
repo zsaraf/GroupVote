@@ -122,14 +122,6 @@ typedef enum _JASidePanelState {
 // Determines whether showing panels can be controlled through pan gestures, or only through buttons
 @property (nonatomic) BOOL recognizesPanGesture; // default is YES
 
-#pragma mark - Menu Buttons
-
-// Gives you an image to use for your menu button. The image is three stacked white lines, similar to Path 2.0 or Facebook's menu button.
-+ (UIImage *)defaultImage;
-
-// Default button to place in gestureViewControllers top viewController. Override in sublcass to change look of default button
-- (UIBarButtonItem *)leftButtonForCenterPanel;
-
 #pragma mark - Nuts & Bolts
 
 // Current state of panels. Use KVO to monitor state changes

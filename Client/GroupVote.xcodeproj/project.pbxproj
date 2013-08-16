@@ -40,6 +40,10 @@
 		92591CD817965F03007BE51A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92591CD717965F03007BE51A /* SystemConfiguration.framework */; };
 		92591CDB1796614C007BE51A /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92591CDA1796614C007BE51A /* UserDetailsViewController.m */; };
 		92D7C6C617BC8EAB00CF1094 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7C6C517BC8EAB00CF1094 /* JASidePanelController.m */; };
+		AF23984217BDDC0F005E8F7F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF23984017BDDC0F005E8F7F /* logo.png */; };
+		AF23984317BDDC0F005E8F7F /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF23984117BDDC0F005E8F7F /* logo@2x.png */; };
+		AF23984617BDE16A005E8F7F /* facebookLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = AF23984417BDE16A005E8F7F /* facebookLogin.png */; };
+		AF23984717BDE16A005E8F7F /* facebookLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF23984517BDE16A005E8F7F /* facebookLogin@2x.png */; };
 		AF37A5EE17AA2098005AEF8B /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF37A5ED17AA2098005AEF8B /* MainNavigationController.m */; };
 		AF37A5F117AA219B005AEF8B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF37A5F017AA219B005AEF8B /* HomeViewController.m */; };
 		AF37A5F417AA234F005AEF8B /* SwiftlyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF37A5F317AA234F005AEF8B /* SwiftlyLabel.m */; };
@@ -104,6 +108,10 @@
 		92591CDA1796614C007BE51A /* UserDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsViewController.m; sourceTree = "<group>"; };
 		92D7C6C417BC8EAB00CF1094 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
 		92D7C6C517BC8EAB00CF1094 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		AF23984017BDDC0F005E8F7F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		AF23984117BDDC0F005E8F7F /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		AF23984417BDE16A005E8F7F /* facebookLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookLogin.png; sourceTree = "<group>"; };
+		AF23984517BDE16A005E8F7F /* facebookLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebookLogin@2x.png"; sourceTree = "<group>"; };
 		AF37A5EC17AA2098005AEF8B /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
 		AF37A5ED17AA2098005AEF8B /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
 		AF37A5EF17AA219B005AEF8B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -214,16 +222,12 @@
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
-		9245CBE017BC981E00083705 /* images */ = {
+		9245CBE017BC981E00083705 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B5E6055B17950EAC00DCFB7A /* Default.png */,
-				B5E6055D17950EAC00DCFB7A /* Default@2x.png */,
-				B5E6055F17950EAC00DCFB7A /* Default-568h@2x.png */,
-				AF37F76817AA25C8003DD19B /* facebookButton.png */,
-				AF37F76917AA25C8003DD19B /* facebookButton@2x.png */,
+				AF23983F17BDDC06005E8F7F /* Images */,
 			);
-			name = images;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		9245CBE117BC983600083705 /* Core */ = {
@@ -238,6 +242,22 @@
 				AF37A5ED17AA2098005AEF8B /* MainNavigationController.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		AF23983F17BDDC06005E8F7F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AF23984017BDDC0F005E8F7F /* logo.png */,
+				AF23984117BDDC0F005E8F7F /* logo@2x.png */,
+				AF23984417BDE16A005E8F7F /* facebookLogin.png */,
+				AF23984517BDE16A005E8F7F /* facebookLogin@2x.png */,
+				B5E6055B17950EAC00DCFB7A /* Default.png */,
+				B5E6055D17950EAC00DCFB7A /* Default@2x.png */,
+				B5E6055F17950EAC00DCFB7A /* Default-568h@2x.png */,
+				AF37F76817AA25C8003DD19B /* facebookButton.png */,
+				AF37F76917AA25C8003DD19B /* facebookButton@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		B5E6053D17950EAC00DCFB7A = {
@@ -293,6 +313,7 @@
 				9245CBDF17BC97D900083705 /* View Controllers */,
 				9245CBDE17BC97C000083705 /* Utils */,
 				9245CBDD17BC97AA00083705 /* Fonts */,
+				9245CBE017BC981E00083705 /* Resources */,
 				B5E6055017950EAC00DCFB7A /* Supporting Files */,
 			);
 			path = GroupVote;
@@ -301,7 +322,6 @@
 		B5E6055017950EAC00DCFB7A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9245CBE017BC981E00083705 /* images */,
 				B5E6055117950EAC00DCFB7A /* GroupVote-Info.plist */,
 				B5E6055217950EAC00DCFB7A /* InfoPlist.strings */,
 				B5E6055517950EAC00DCFB7A /* main.m */,
@@ -414,6 +434,10 @@
 				92591CBC17965C1A007BE51A /* FacebookSDKResources.bundle in Resources */,
 				AF37F76A17AA25C8003DD19B /* facebookButton.png in Resources */,
 				AF37F76B17AA25C8003DD19B /* facebookButton@2x.png in Resources */,
+				AF23984217BDDC0F005E8F7F /* logo.png in Resources */,
+				AF23984317BDDC0F005E8F7F /* logo@2x.png in Resources */,
+				AF23984617BDE16A005E8F7F /* facebookLogin.png in Resources */,
+				AF23984717BDE16A005E8F7F /* facebookLogin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
